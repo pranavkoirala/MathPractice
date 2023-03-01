@@ -1,0 +1,65 @@
+/* practice.css */
+
+/* Set font to Nunito */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Center all elements */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the header */
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Style the equation */
+#equation {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+input[type="text"] {
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+
+button {
+    font-size: 2em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+
+/* Style the feedback and score elements */
+#feedback,
+#score {
+    font-size: 2em;
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

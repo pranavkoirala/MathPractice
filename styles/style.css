@@ -1,0 +1,44 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
