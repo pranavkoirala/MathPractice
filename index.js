@@ -11,7 +11,7 @@ function handleFormSubmit(event) {
     selectedOperations.push(checkbox.value);
   });
 
-  window.location.href = `./pages/practice.html?operations=${selectedOperations.join(
+  window.location.href = `practice.html?operations=${selectedOperations.join(
     ","
   )}`;
 }
