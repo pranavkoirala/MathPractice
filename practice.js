@@ -87,5 +87,5 @@ submitButton.addEventListener("click", handleFormSubmit);
 let correctAnswer = generateQuestion();
 
 function back() {
-  window.location.href = `../index.html`;
+  window.location.href = `index.html`;
 }
